@@ -1,0 +1,82 @@
+* {
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    text-align: right;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    color: black;
+}
+
+a:hover {
+    font-style: italic;
+    color: blueviolet;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.flex {
+    padding-top: 120px;
+    text-align: center;
+}
+
+figure {
+    width: 50%;
+    margin: auto;
+    height: fit-content;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+figcaption {
+    font-size: 200%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    padding: 30px;
+    font-size: 20px;
+    color: antiquewhite;
+    border-radius: 10%;
+    background-color: rgb(182, 24, 158);
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.big {
+    transform: scale(1.5);
+}
